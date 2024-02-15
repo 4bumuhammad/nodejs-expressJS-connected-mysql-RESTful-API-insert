@@ -57,23 +57,23 @@ untuk mengatasi hal tersebut lakukan langkah berikut:
         Query OK, 0 rows affected (0.03 sec)
 
 
-mysql> use ujimysqlkudb;
-
-mysql> select * from users;
-
-+------+---------+--------+
-
-| id   | nama    | alamat |
-
-+------+---------+--------+
-
-|    1 | andara  | jaksel |
-
-|    2 | sukiman | bekasi |
-
-+------+---------+--------+
-
-2 rows in set (0.00 sec)
+    mysql> use ujimysqlkudb;
+    
+    mysql> select * from users;
+    
+    +------+---------+--------+
+    
+    | id   | nama    | alamat |
+    
+    +------+---------+--------+
+    
+    |    1 | andara  | jaksel |
+    
+    |    2 | sukiman | bekasi |
+    
+    +------+---------+--------+
+    
+    2 rows in set (0.00 sec)
 
 
 
