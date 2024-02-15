@@ -25,14 +25,14 @@ buat file json secara manual dan isinya.
 
 
 
-jalankan
+jalankan (command) :
 
 > node app.js
     op:
     Server running on port 3000
 
 
-___
+***
 
 
 
