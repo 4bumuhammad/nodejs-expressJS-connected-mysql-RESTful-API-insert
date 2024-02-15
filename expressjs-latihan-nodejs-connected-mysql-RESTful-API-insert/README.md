@@ -11,7 +11,9 @@ pastikan sebelumnya telah menginstall paket diperlukan yaitu :
     - tampilkan list paket
     
     $ npm list
+  
     ├── express@4.18.0
+
     └── mysql@2.18.1
 
 
