@@ -3,9 +3,13 @@
 pastikan sebelumnya telah menginstall paket diperlukan yaitu :
 
 - mysql
-    # cara install
+
+    - cara install
+
     $ npm install mysql
-    # tampilkan list paket
+
+    - tampilkan list paket
+    
     $ npm list
     ├── express@4.18.0
     └── mysql@2.18.1
