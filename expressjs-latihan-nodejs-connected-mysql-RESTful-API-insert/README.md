@@ -1,6 +1,7 @@
-## latihan nodejs sederhana dengan framework expressjs.
+#nodejs sederhana dengan framework expressjs.
 
 pastikan sebelumnya telah menginstall paket diperlukan yaitu :
+
 - mysql
     # cara install
     $ npm install mysql
@@ -24,12 +25,16 @@ jalankan
 
 
 desclimer:
+
 saat menjalankan pertama kali pada container mysql maka akan terdapat error sebagai berikut:
+
 ❯ node app.js
+
 Server berjalan pada port 3000
 Koneksi ke database gagal:  Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
 
 untuk mengatasi hal tersebut lakukan langkah berikut:
+
 ❯ mysql -h 127.0.0.1 -P 3309 -u root -p --ssl-mode=DISABLED
 mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
 Query OK, 0 rows affected (0.03 sec)
