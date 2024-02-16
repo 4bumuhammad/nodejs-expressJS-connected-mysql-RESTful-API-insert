@@ -1,6 +1,11 @@
 
 # nodejs sederhana dengan framework expressjs #
 
+---
+
+instalasi expressjs:
+
+    > npm install express
 
 
 pastikan sebelumnya telah menginstall paket diperlukan yaitu :
@@ -21,7 +26,7 @@ pastikan sebelumnya telah menginstall paket diperlukan yaitu :
 
 
 
-buat file json secara manual dan isinya.
+periksa file json dan buat file js secara manual serta isinya.
 
 - package.json
 
