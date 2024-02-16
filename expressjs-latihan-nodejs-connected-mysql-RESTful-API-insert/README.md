@@ -1,4 +1,7 @@
-#nodejs sederhana dengan framework expressjs.
+
+# nodejs sederhana dengan framework expressjs #
+
+
 
 pastikan sebelumnya telah menginstall paket diperlukan yaitu :
 
@@ -17,6 +20,7 @@ pastikan sebelumnya telah menginstall paket diperlukan yaitu :
             └── mysql@2.18.1
 
 
+
 buat file json secara manual dan isinya.
 
 - package.json
@@ -32,8 +36,9 @@ jalankan (command) :
         Server running on port 3000
 
 
---
---
+
+
+---
 
 
 
@@ -78,12 +83,13 @@ untuk mengatasi hal tersebut lakukan langkah berikut:
 
 
 
-lanjut coba jalankan kembali aplikasi
+lanjut coba jalankan kembali aplikasi:
 
     ❯ node app.js
 
-Server berjalan pada port 3000
-Terhubung ke database MySQL
+
+
+Server berjalan pada port 3000, terhubung ke database MySQL
 
 eksekusi dengan CURL:
     
@@ -103,27 +109,29 @@ check data
 
     ❯ mysql -h 127.0.0.1 -P 3309 -u root -p --ssl-mode=DISABLED
 
-Enter password: password
+        Enter password: password
 
-mysql> use ujimysqlkudb;
 
-mysql> select * from users;
 
-+------+-------------+-----------+
-
-| id   | nama        | alamat    |
-
-+------+-------------+-----------+
-
-|    1 | andara      | jaksel    |
-
-|    2 | sukiman     | bekasi    |
-
-|    3 | makaela     | bekasi    |
-
-|    4 | abdurrahman | tangerang |
-
-+------+-------------+-----------+
-
-4 rows in set (0.00 sec)
+    mysql> use ujimysqlkudb;
+    
+    mysql> select * from users;
+    
+    +------+-------------+-----------+
+    
+    | id   | nama        | alamat    |
+    
+    +------+-------------+-----------+
+    
+    |    1 | andara      | jaksel    |
+    
+    |    2 | sukiman     | bekasi    |
+    
+    |    3 | makaela     | bekasi    |
+    
+    |    4 | abdurrahman | tangerang |
+    
+    +------+-------------+-----------+
+    
+    4 rows in set (0.00 sec)
 
