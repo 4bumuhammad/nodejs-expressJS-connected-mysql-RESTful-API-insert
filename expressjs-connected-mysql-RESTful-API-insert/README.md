@@ -5,7 +5,7 @@
 
 instalasi expressjs:
 
-    > npm install express
+     ❯ npm install express
 
 
 pastikan sebelumnya telah menginstall paket diperlukan yaitu :
@@ -33,18 +33,14 @@ periksa file json dan buat file js secara manual serta isinya.
 - app.js
 
 
-
 jalankan (command) :
 
-    > node app.js
+     ❯ node app.js
         op:
         Server running on port 3000
 
 
-
-
 ---
-
 
 
 desclimer:
@@ -63,27 +59,23 @@ untuk mengatasi hal tersebut lakukan langkah berikut:
 
 
     ❯ mysql -h 127.0.0.1 -P 3309 -u root -p --ssl-mode=DISABLED
+    
         mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
         Query OK, 0 rows affected (0.03 sec)
 
 
-    mysql> use ujimysqlkudb;
-    
-    mysql> select * from users;
-    
-    +------+---------+--------+
-    
-    | id   | nama    | alamat |
-    
-    +------+---------+--------+
-    
-    |    1 | andara  | jaksel |
-    
-    |    2 | sukiman | bekasi |
-    
-    +------+---------+--------+
-    
-    2 rows in set (0.00 sec)
+        mysql> use ujimysqlkudb;
+        
+        mysql> select * from users;
+        
+        +------+---------+--------+
+        | id   | nama    | alamat |
+        +------+---------+--------+
+        |    1 | andara  | jaksel |
+        |    2 | sukiman | bekasi |
+        +------+---------+--------+
+        
+        2 rows in set (0.00 sec)
 
 
 
@@ -116,27 +108,18 @@ check data
 
         Enter password: password
 
-
-
-    mysql> use ujimysqlkudb;
-    
-    mysql> select * from users;
-    
-    +------+-------------+-----------+
-    
-    | id   | nama        | alamat    |
-    
-    +------+-------------+-----------+
-    
-    |    1 | andara      | jaksel    |
-    
-    |    2 | sukiman     | bekasi    |
-    
-    |    3 | makaela     | bekasi    |
-    
-    |    4 | abdurrahman | tangerang |
-    
-    +------+-------------+-----------+
+        mysql> use ujimysqlkudb;
+        
+        mysql> select * from users;
+        
+        +------+-------------+-----------+
+        | id   | nama        | alamat    |
+        +------+-------------+-----------+
+        |    1 | andara      | jaksel    |
+        |    2 | sukiman     | bekasi    |
+        |    3 | makaela     | bekasi    |
+        |    4 | abdurrahman | tangerang |
+        +------+-------------+-----------+
     
     4 rows in set (0.00 sec)
 
